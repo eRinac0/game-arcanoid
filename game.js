@@ -101,7 +101,8 @@ function drawBricks() {
             colorball=generateColor();
             if(score == brickRowCount*brickColumnCount) {
                 alert("YOU WIN, CONGRATULATIONS!");
-                document.location.reload();
+                return;
+
           }
         }
         }
