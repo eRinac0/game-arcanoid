@@ -139,7 +139,7 @@ function draw() {
         else {
             
             alert(`GAME OVER \nRESULT: ${score}`);
-            document.location.reload();
+            return;
         }
     }
     if(rightPressed && paddleX < canvas.width-paddleWidth) {
