@@ -1,3 +1,6 @@
+function start() {
+  
+
 let canvas = document.getElementById("mygame");
 let ctx = canvas.getContext("2d");
 let ballRadius = 10;
@@ -135,7 +138,7 @@ function draw() {
         dy = -dy;
     } else if(y + dy > canvas.height-ballRadius) {
         if(x > paddleX && x < paddleX + paddleWidth) {
-            dy = -dy*1.1;
+            dy = -dy*1.2;
         }
         else {
             
@@ -157,3 +160,4 @@ function draw() {
 }
 
 draw();
+}

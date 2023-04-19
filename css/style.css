@@ -3,3 +3,16 @@
     display: block; 
     margin: 0 auto;
 }
+
+.startgame{ 
+       height: 50px;
+       margin: 0 auto;
+       display: block; 
+        width: 480px;
+        margin-top: 10px;
+        background-color: #0095DD;
+        color: #eee;
+        border: 1px solid #0093dd9a;
+        border-radius: 50px;
+        font-size: 20px;
+}
